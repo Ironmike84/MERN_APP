@@ -2,9 +2,10 @@
   "name": "mern-app",
   "version": "1.0.0",
   "description": "Social Network App",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
