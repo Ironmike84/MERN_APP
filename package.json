@@ -2,9 +2,9 @@
   "name": "mern-app",
   "version": "1.0.0",
   "description": "Social Network App",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.",
+    "start": "node server",
     "server": "nodemon server"
   },
   "repository": {
