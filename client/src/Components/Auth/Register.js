@@ -1,4 +1,5 @@
 import React, {Fragment, useState} from 'react'
+import { Link } from 'react-router-dom'
 const Register = () => {
 
     const [formData, setFormData] = useState({
@@ -73,7 +74,7 @@ const Register = () => {
                 onClick={e => onSubmit(e)}/>
     </form>
         <p className="my-1">
-        Already have an account? <a href="login.html">Sign In</a>
+        Already have an account? <Link to="/Login">Sign In</Link>
         </p>
     </section>
  </Fragment>
